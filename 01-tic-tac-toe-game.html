@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="01-tic-tac-toe-game.css">
+    <title>tic-tac-toe Game</title>
+  </head>
+  <body>
+
+    <div class="main-contianer">
+      <p class="heading">
+        tic-tac-toe Game
+      </p>
+      <p class="info">
+        Game starts by clicking on the any of the boxes below
+        <br><br>
+        First Player start as <b class="player1">Player 1</b> and Second Player as <b class="player2">Player 2</b>.
+      </p>
+      <br><br>
+      <div class="container">
+          
+        <div class="row">
+          <input type="text" class="a11-js cell" readonly>
+          <input type="text" class="a12-js cell" readonly>
+          <input type="text" class="a13-js cell" readonly>
+        </div>
+  
+        <div class="row">
+          <input type="text" class="a21-js cell" readonly>
+          <input type="text" class="a22-js cell" readonly>
+          <input type="text" class="a23-js cell" readonly>
+        </div>
+  
+        <div class="row">
+          <input type="text" class="a31-js cell" readonly>
+          <input type="text" class="a32-js cell " readonly>
+          <input type="text" class="a33-js cell" readonly>
+        </div>
+  
+      </div>
+      
+      <div class="play-container">
+        <button class="play play-O-js">
+          O
+        </button>
+  
+        <button class="play play-X-js">
+          X 
+        </button>
+
+        <p>cilck "O" or "X" to play</p>
+      </div>
+      
+      <p class="result" ></p>
+      <p id="show"></p>
+
+      <button class="reset-js reset">
+        Reset
+      </button>
+    </div>
+
+  </body>
+  <script src="01-tic-tac-toe-game.js"></script>
+</html>
